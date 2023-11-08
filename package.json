@@ -1,25 +1,28 @@
 {
-	"name": "amazon",
-	"version": "1.0.0",
-	"description": "Crawl a number of web pages using headless Chrome and Puppeteer",
-	"main": "main.js",
-	"dependencies": {
-		"apify": "^3.1.12",
-		"cheerio": "^1.0.0-rc.3",
-		"parse-price": "^1.1.8",
-		"query-string": "^6.8.1",
-		"request-promise": "^0.0.1",
-		"url": "^0.11.0",
-		"url-parse": "^1.4.7"
-	},
-	"scripts": {
-		"start": "node ./src/main.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": ""
-	},
-	"author": "",
-	"license": "ISC",
-	"homepage": ""
+    "name": "amazon",
+    "version": "1.0.0",
+    "description": "Crawl a number of web pages using headless Chrome and Puppeteer",
+    "main": "main.js",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.1.12",
+        "cheerio": "^1.0.0-rc.3",
+        "parse-price": "^1.1.8",
+        "query-string": "^6.8.1",
+        "request-promise": "^0.0.1",
+        "url": "^0.11.0",
+        "url-parse": "^1.4.7"
+    },
+    "scripts": {
+        "start": "node ./src/main.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "",
+    "license": "ISC",
+    "homepage": ""
 }
